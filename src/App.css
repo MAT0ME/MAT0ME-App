@@ -1,0 +1,276 @@
+.App {
+  text-align: center;
+}
+
+Body { background: url(Banner.png) no-repeat;
+background-size: cover;
+background-position: center ;}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark : rgba(255,255,255, 0);
+  --flatty-orange :#E36937;
+  --flatty-red: #D64541;
+  --flatty-bue: #D64541;
+  --flatty-hover-red: #F31D2F;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/********************************NavBAr**************/
+nav{
+  z-index: 2;
+}
+
+.logo{
+  Width: 8.25rem;
+  height: 7.1rem;
+}
+
+
+/****menu links**/
+nav a.nav-link { 
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing:0.0375rem;
+  cursor: pointer;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav >li >a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+ border-top: 0.1875rem solid var(--primary-orange);
+ 
+}
+
+.navbar-nav > li > a:hover{
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/***************** Header **************/
+.header-wrapper {
+  position: relative;
+  background: url(Banner.png) no-repeat;
+  background-size: cover;
+  background-position: center ;
+  height: 90vh;
+  
+
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top : 0;
+  left : 0;
+  right : 0;
+  bottom: 0;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: var(--flatty-orange);
+  text-transform: uppercase;
+}
+
+/***************** Typed text **************/
+
+.typed_class {
+  font-size: 2rem;
+  color: var(--flatty-orange);
+}
+
+/***************** main offer button **************/
+
+.btn-main-info {
+ border:1px solid var(--flatty-red);
+ text-transform: uppercase;
+ border-radius: 0;
+ padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+ color:antiquewhite;
+ margin-top: 2rem;
+}
+
+.btn-main-info-1 {
+  border:1px solid var(--flatty-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color:var(--flatty-orange);
+  margin-top: 2rem;
+ 
+ }
+
+.btn-main-info:hover{
+  text-decoration: none;
+  color:antiquewhite;
+  background-color: var(--flatty-hover-red);
+  transition: .2s ease-in-out;
+}
+
+.btn-main-info-1:hover{
+  text-decoration: none;
+  color:antiquewhite;
+  background-color: var(--flatty-hover-red);
+  transition: .2s ease-in-out;
+}
+
+/***************** Particles **************/
+.tsparticles-canvas-el{
+
+position: absolute;
+height: 100vh;
+width: 100vw;
+z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .particles-canvas{
+    display: none;
+  }
+
+  .btn-main-info h1{
+    font-size: 1.5rem !important;
+  }
+
+  .typed_class{
+    font-size: 1.1rem !important;
+  }
+
+  .navbar-brand{
+    width: 7rem !important;
+  }
+}
+/*************************** Cards***********************/
+
+
+/******************************************the end of cards *******************/
+
+.Head1{
+ display: flex;
+ 
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: var(--flatty-orange)
+    
+}
+
+.BodyText{
+  display: flex;
+ 
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: var(--flatty-orange)
+}
+
+
+/******************************************ast  *******************/
+
+
+.formthree {
+  background: #f7f7f7
+}
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0
+}
+
+.formthree .form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 13px;
+  border-bottom: 1px solid  var(--flatty-orange);;
+  background: transparent;
+  font-family: 'Roboto'
+}
+
+
+
+.fbody
+{
+color: #000;
+margin: 10px 0px 10px 0px; 
+background-color: #ffffff;
+background-image:url('http://userlogos.org/files/backgrounds/Mafia_Penguin/Map1280x800.jpg');
+background-repeat:no-repeat;
+font-family: Arial, Helvetica, sans-serif;
+}

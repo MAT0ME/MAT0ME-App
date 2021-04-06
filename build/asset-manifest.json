@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/MAT0ME.git/static/css/main.001aebd4.chunk.css",
+    "main.js": "/MAT0ME.git/static/js/main.c3e92950.chunk.js",
+    "main.js.map": "/MAT0ME.git/static/js/main.c3e92950.chunk.js.map",
+    "runtime-main.js": "/MAT0ME.git/static/js/runtime-main.6f3c1486.js",
+    "runtime-main.js.map": "/MAT0ME.git/static/js/runtime-main.6f3c1486.js.map",
+    "static/css/2.150d169a.chunk.css": "/MAT0ME.git/static/css/2.150d169a.chunk.css",
+    "static/js/2.66b9ab38.chunk.js": "/MAT0ME.git/static/js/2.66b9ab38.chunk.js",
+    "static/js/2.66b9ab38.chunk.js.map": "/MAT0ME.git/static/js/2.66b9ab38.chunk.js.map",
+    "static/js/3.bf4ca2f0.chunk.js": "/MAT0ME.git/static/js/3.bf4ca2f0.chunk.js",
+    "static/js/3.bf4ca2f0.chunk.js.map": "/MAT0ME.git/static/js/3.bf4ca2f0.chunk.js.map",
+    "index.html": "/MAT0ME.git/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/MAT0ME.git/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.001aebd4.chunk.css.map": "/MAT0ME.git/static/css/main.001aebd4.chunk.css.map",
+    "static/js/2.66b9ab38.chunk.js.LICENSE.txt": "/MAT0ME.git/static/js/2.66b9ab38.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/MAT0ME.git/static/media/Banner.2b682978.png",
+    "static/media/M.ad730e51.gif": "/MAT0ME.git/static/media/M.ad730e51.gif",
+    "static/media/coming_soon_img.2b2a2b25.jpg": "/MAT0ME.git/static/media/coming_soon_img.2b2a2b25.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f3c1486.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.66b9ab38.chunk.js",
+    "static/css/main.001aebd4.chunk.css",
+    "static/js/main.c3e92950.chunk.js"
+  ]
+}
